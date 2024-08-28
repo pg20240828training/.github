@@ -1,0 +1,13 @@
+{
+    "name": "My- template", # ⬅️ Wymagane. Wypełnić dowolną nazwą
+    "description": "my - template", # ⬅️ Wymagane. 
+    "iconName": "example-icon", # ⬅️ Nazwa pliku SVG (bez rozszerzenia!) który jest katalogu workflow
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [ 
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}

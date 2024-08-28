@@ -1,0 +1,17 @@
+  name: Organization CI
+
+on:
+  push:
+    branches: [ $default-branch ]  # ⬅️ W momencie uruchomnienia to zostanie zastąpione domyślnym branchem w repo.
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run a one-line script
+        run: echo Hello from Szymon :)

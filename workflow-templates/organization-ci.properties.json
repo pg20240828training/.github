@@ -1,7 +1,6 @@
 {
-    "name": "My- template", # ⬅️ Wymagane. Wypełnić dowolną nazwą
-    "description": "my - template", # ⬅️ Wymagane. 
-    "iconName": "example-icon", # ⬅️ Nazwa pliku SVG (bez rozszerzenia!) który jest katalogu workflow
+    "name": "Organization CI",
+    "description": "my - template",
     "categories": [
         "Go"
     ],
